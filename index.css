@@ -1,0 +1,392 @@
+
+body{
+    background: rgb(0,153,153);
+    background: linear-gradient(90deg, rgba(82,148,148,1) 9%, rgba(52,138,156,1) 32%, rgba(17,64,96,1) 100%);
+    display: flex;
+    background-size: 400% 400%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    animation: change 10s ease-in-out infinite;
+    }
+    
+    @keyframes change{
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+    
+    }
+    
+    
+    .container
+     {
+        position: relative;
+        width: 90%;
+        max-width: 900px;
+        min-height: 200px;
+        background-color: #1f1f1f;
+        display: flex;
+        
+        margin: 2px;
+        height: 1150px;
+        
+        
+    }
+    
+    .name {
+        position: relative;
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        bottom: -20px;
+        right: -90px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    .profile img{
+        position: absolute;
+        width: 140px;
+        top: 120px;
+        left: 70px;
+        height: 140px;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 100%;
+    }
+    .polygon_top img{ 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 900px;
+        height: 220px;
+        clip-path: polygon(27% 0, 100% 0, 100% 100%, 54% 76%);
+    }
+    
+    .polygon_bottom img{
+        position: absolute;
+        top: 900px;
+        left: 0;
+        width: 900px;
+        height: 250px;
+        clip-path: polygon(51% 41%, 100% 0, 100% 100%, 25% 100%);
+    }
+    
+    .tel{
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        right: -680px;
+        top: -340px;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+    }
+    
+    .email {
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        right: -550px;
+        top: -395px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    .first{
+          color: #39656e;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          left: 90px;
+          bottom: -180px;
+          font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .second{
+        color: #39656e;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          left: 90px;
+          bottom: -202px;
+          font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .third{
+       color: #39656e;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          left: 90px;
+          bottom: -231px;
+          font-family: Arial, Helvetica, sans-serif;
+    
+    
+    }
+    
+    .fourth{
+        color: #39656e;
+           position: relative;
+           display: flex;
+           flex-direction: column;
+           left: 90px;
+           bottom: -80px;
+           font-family: Arial, Helvetica, sans-serif;
+     }
+    
+     .fifth{
+        color: #39656e;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 560px;
+        top: -490px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .sixth{
+        color: #39656e;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 560px;
+        top: -420px;
+        font-family: Arial, Helvetica, sans-serif;
+
+     }
+
+     .seventh{
+        color: #39656e;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 485px;
+        top: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+
+    
+     }
+    
+    .text1 {
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 40px;
+        bottom: -180px;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .text2 {
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 40px;
+        bottom: -210px;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .text3 {
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 40px;
+        bottom: -60px;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .text4 {
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 40px;
+        bottom: -95px;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .box .percent{
+        position: relative;
+        width: 50%;
+        height: 6px;
+        background: #000000;
+        display: block;
+        margin-top: -10px;
+        top: -40px;
+        left: 100px;
+       
+        
+
+
+    }
+    .box .percent div{
+        position: relative;
+        width: 100%;
+        height: 6px;
+        background: #39656e;
+        display: block;
+        margin-top: 40px;
+        margin-left: 40px;
+        right: 40px;
+        
+
+    }
+    .box ul{
+        list-style-type: none;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 460px;
+        color: rgb(255, 255, 255);
+        bottom: 470px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: -70px;
+       
+        
+    }
+
+    .hobby i{
+        color: #39656e;
+        position: relative;
+        top: -280px;
+        left: 455px;
+        margin-left: 50px;
+        font-size: 50px;
+    }
+
+    .bio p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        margin-right: 35px;
+        display: inline;
+        top: -270px;
+        right: -501px;
+    }
+
+    .tel_icon {
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        right: -650px;
+        top: -385px;
+        font-size: 28px;
+    }
+    
+    .email_icon{
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        right: -520px;
+        top: -440px;
+        font-size: 22px;
+    }
+    
+    .first_icon{
+        color: #505050;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 70px;
+        top: 264px;
+        margin-left: -30px;
+        font-size: 35px;
+        
+    
+    }
+    
+    .second_icon{
+        color: #505050;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 70px;
+        top: 430px;
+        margin-left: -36px;
+        font-size: 32px;
+    }
+    
+    .third_icon{
+        color: #505050;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 73px;
+        top: 560px;
+        margin-left: -36px;
+        font-size: 32px;
+    }
+    
+    .fourth_icon{  
+        color: #505050;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 73px;
+        top: 710px;
+        margin-left: -36px;
+        font-size: 32px;
+    }
+    
+    .fifth_icon{
+        color: #505050;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        font-size: 32px;
+        left: 500px;
+        top: 275px;
+    }
+    
+    .sixth_icon{
+        color: #505050;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-size: 32px;
+        left: 500px;
+        top: -480px;
+    
+    }
+    
+    
+    
+    .link1 {
+        
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 500px;
+        top: 1020px;
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(300deg) brightness(100%) contrast(106%);
+    }
+     
+    .link2 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 700px;
+        top: 1020px;
+        filter: invert(0%) sepia(2%) saturate(3%) hue-rotate(336deg) brightness(1000%) contrast(100%);
+    }
+    
