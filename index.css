@@ -150,7 +150,7 @@ body{
         display: flex;
         flex-direction: column;
         left: 560px;
-        top: -490px;
+        top: -496px;
         font-family: Arial, Helvetica, sans-serif;
      }
 
@@ -171,7 +171,7 @@ body{
         display: flex;
         flex-direction: column;
         left: 485px;
-        top: 650px;
+        top: 685px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 40px;
 
@@ -308,7 +308,7 @@ body{
         display: flex;
         flex-direction: column;
         left: 70px;
-        top: 264px;
+        top: 260px;
         margin-left: -30px;
         font-size: 35px;
         
@@ -321,7 +321,7 @@ body{
         display: flex;
         flex-direction: column;
         left: 70px;
-        top: 430px;
+        top: 438px;
         margin-left: -36px;
         font-size: 32px;
     }
@@ -332,7 +332,7 @@ body{
         display: flex;
         flex-direction: column;
         left: 73px;
-        top: 560px;
+        top: 576px;
         margin-left: -36px;
         font-size: 32px;
     }
@@ -343,7 +343,7 @@ body{
         display: flex;
         flex-direction: column;
         left: 73px;
-        top: 710px;
+        top: 730px;
         margin-left: -36px;
         font-size: 32px;
     }
@@ -354,8 +354,8 @@ body{
         display: flex;
         flex-direction: column;
         font-size: 32px;
-        left: 500px;
-        top: 275px;
+        left: 510px;
+        top: 305px;
     }
     
     .sixth_icon{
@@ -368,8 +368,6 @@ body{
         top: -480px;
     
     }
-    
-    
     
     .link1 {
         
@@ -389,4 +387,3 @@ body{
         top: 1020px;
         filter: invert(0%) sepia(2%) saturate(3%) hue-rotate(336deg) brightness(1000%) contrast(100%);
     }
-    
