@@ -27,7 +27,7 @@ background: linear-gradient(90deg, rgba(31,31,31,1) 0%, rgba(28,28,28,1) 59%, rg
     color: #ffffff;
   }
   .profile-photo img {
-    height: 240px;
+    height: 280px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10%;
