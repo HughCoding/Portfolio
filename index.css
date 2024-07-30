@@ -184,10 +184,11 @@ background: linear-gradient(90deg, rgba(31,31,31,1) 50%, rgba(28,28,28,1) 59%, r
   }
 
   .heading_dark {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     border-bottom: 1px solid #e0e0e0;
-    margin-bottom: 37px;
+    position: relative;
+    margin-top: 2px;
   }
   .list {
     list-style: none;
@@ -271,8 +272,11 @@ background: linear-gradient(90deg, rgba(31,31,31,1) 50%, rgba(28,28,28,1) 59%, r
   .level-50:before {
     width: 50%;
   }
-  .level-60::before {
+  .level-30::before {
     width: 30%;
+  }
+  .level-40::before {
+    width: 40%;
   }
   
   @media (max-width: 1024px) {
