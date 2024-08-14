@@ -127,7 +127,7 @@ section{
   background-color: var(--background);
 }
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(to bottom, #6cff52, #3ec5ff);
+ background-color: rgb(255, 255, 255);
 }
 
 #about{
