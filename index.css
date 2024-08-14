@@ -66,7 +66,7 @@ nav ul a:hover{
   color: var(--background);
 }
 span{
-  background: linear-gradient(to right, #6cff62, #3ec5ff);
+  background: linear-gradient(to right, #fafafa, #ccb56a);
   background-clip: text;
   color: transparent;
 }
@@ -267,7 +267,8 @@ footer{
 .col-left{
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 2em;
+  
 }
 .col-box{
   display: flex;
@@ -294,8 +295,9 @@ footer{
   align-items: baseline;
   justify-content: left;
   gap: 1em;
+
 }
-.col-right .social-icons i{
+.col-right .social-icons a{
   font-size: 2em;
   transition: 0.2 ease-in-out;
   cursor: pointer;
