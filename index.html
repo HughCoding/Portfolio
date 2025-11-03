@@ -1,1 +1,203 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+        <nav>
+            <a href="#" class="custom-font"><span>Hugo&nbsp;&nbsp;Bolzan</span></a>
+
+            <ul class="links">
+                <a href="#home">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#services">Experiências</a>
+                <a href="#contact">Contatos</a>
+            </ul>
+
+            <i class='bx bx-menu-alt-right' id="menu"></i>
+
+            <a href="#contactform" class="btn">Fale Comigo</a>
+        </nav>
+
+        <section id="home">
+             <img src="profile.png" alt="">
+
+            <div class="info-box">
+                <h1><span>Oi, sou o Hugo</span></h1>
+                <h3><span>Backend Developer</span></h3>
+                <p>4° período em ciência da computação na Universidade Vila Velha - UVV . Certificações em Python / Oracle Database / Certificação de participação SAP MANAGEMENT / Prompting for Everyone with Amazon Bedrock Models
+                </p>
+            </div>
+          <h3><span>Advanced English Level</span></h3>
+            <div class="btn-box">
+                <div class="btn">Contratar</div>
+                <a href="#contactform" class="btn">Fale Comigo</a>
+            </div>
+        </section>
+
+        <section id="about">
+
+            <div class="about-box">
+
+                <div class="about-info">
+                    <h1><span>Sobre Mim</span></h1>
+                    <p>Busco ampliar meus conhecimentos na área de TI, desenvolvendo habilidades sólidas em tomada de decisões assertivas 
+                        e na organização. Tenho como objetivo constante aprimorar softwares com foco em qualidade,
+                        desempenho e soluções que atendam às necessidades reais dos usuários.</p>
+                </div>
+
+                <h2><span>Habilidades</span></h2>
+
+                <div class="skills">
+                    <ul>
+                        <li>
+                            <span><i class='bx bx-chevron-right'></i>PYTHON</span>
+                        </li>
+
+                        <li>
+                            <span><i class='bx bx-chevron-right'></i>SQL</span>
+                        </li>
+
+                        <li>
+                            <span><i class='bx bx-chevron-right'></i>FLASK</span>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <span><i class='bx bx-chevron-right'></i>GIT</span>
+                        </li>
+
+                        <li>
+                            <span><i class='bx bx-chevron-right'></i>DOCKER</span>
+                        </li>
+
+                        <li>
+                            <span><i class='bx bx-chevron-right'></i>JUPYTER NOTEBOOK</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <img src="profile.png" alt="">
+         </section>
+    
+         <section id="services">
+            <h1 class="header"><span>Experiências
+            </span></h1>
+
+            <div class="services-container">
+
+                <div class="box">
+                    <h1><span>Backend Developer</span></h1>
+                    <p>
+                        Desenvolvedor backend com experiência em <strong>Python</strong>, <strong>Desenvolvimento de APIs</strong>, <strong>Docker</strong>, <strong>banco de dados</strong> e desenvolvimento de soluções voltadas para automação de processos.
+                      </p>
+                    </p>
+                <img src="backend.jpg" alt="">
+                </div>
+                <div class="box">
+                    <h1><span>Ex-Jogador de Basquete</span></h1>
+
+                    <p>De 2013 a 2024 atuei como jogador de basquete em clubes renomados, incluindo o Clube de Regatas do Flamengo. Essa experiência me ensinou disciplina, trabalho em equipe e alta performance.</p>
+                        <img src="athlete.jpg" alt="">
+                </div>
+                <div class="box">
+                    <h1><span>Estudante Universitário</span></h1>
+
+                    <p>Sou um estudante universitário cursando Ciência da Computação. Desde que ingressei na faculdade,
+                        tenho dedicado todo o meu tempo e esforço para absorver o máximo de conhecimento possível.</p>
+                        <img src="university.jpg" alt="">
+                </div>
+            </div>
+         </section>
+
+         <section id="contact">
+            <section id="contactform">
+            
+            
+            <h1 class="header"><span>Contato</span></h1>
+
+            <form action="/send" method="POST">
+
+                <div class="input-box">
+                    <span>Nome Completo</span>
+                    <input type="text" name="name" placeholder="Digite seu nome completo" required>
+                </div>
+            
+                <div class="input-box">
+                    <span>Seu Email</span>
+                    <input type="email" name="email" placeholder="Digite seu email" required>
+                </div>
+            
+                <div class="input-box">
+                    <span>Sua Mensagem</span>
+                    <input type="text" name="message" placeholder="Escreva sua mensagem" required>
+                </div>
+            
+                <button type="submit" class="submit">Enviar</button>
+            </form>
+        </section>
+         </section>
+
+         <footer>
+
+            <div class="col-left">
+                <div class="col-box">
+                    <span><i class='bx bxs-location-plus'></i></span>
+                    <span>Vila Velha, ES - Brasil</span>
+              </div>
+
+              <div class="col-box">
+                <span><i class='bx bxs-phone'></i></span>
+                <span>+55 (27)99761-1547</span>
+          </div>
+          <div class="col-box">
+            <span><i class='bx bxs-envelope'></i></span>
+            <span>hugobolzan29@gmail.com</span>
+         </div>
+        </div>
+        <div class="col-right">
+        <span>Sobre meus serviços</span>
+        <p>Ofereço soluções rápidas e eficientes para suas necessidades. Estou preparado para criar e otimizar sistemas</p>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com/hugobolzan" target="_blank" title="Instagram">
+                <span><i class='bx bxl-instagram-alt'></i></span>
+            </a>
+            <a href="https://www.linkedin.com/in/hugo-bolzan-075481302/" target="_blank" title="LinkedIn">
+                <span><i class='bx bxl-linkedin-square'></i></span>
+            </a>
+            <a href="https://github.com/HughCoding" target="_blank" title="GitHub">
+                <span><i class='bx bxl-github'></i></span>
+            </a>
+        </div>        
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
